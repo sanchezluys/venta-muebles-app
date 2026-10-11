@@ -1,0 +1,6 @@
+{
+  "name": "Reporte Ventas Muebles",
+  "description": "Registro de ventas minoristas y generación de reportes de cierre para muebles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Reporte Ventas Muebles</string>
+    <string name="app_subtitle">Control de ventas de salón y reportes de cierre</string>
+    <string name="nav_dashboard">Inicio</string>
+    <string name="nav_new_sale">Nueva Venta</string>
+    <string name="nav_reports">Reportes</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- Indicador de conexión / modo local -->
+    <string name="badge_offline_mode">100% Local · Sin Internet</string>
+    <string name="offline_tooltip">Los datos se guardan de forma segura en este dispositivo</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_today_title">Ventas de Hoy</string>
+    <string name="dashboard_total_amount">Total Facturado</string>
+    <string name="dashboard_transactions_count">Transacciones</string>
+    <string name="dashboard_avg_ticket">Ticket Promedio</string>
+    <string name="dashboard_quick_actions">Acciones Rápidas</string>
+    <string name="btn_new_sale">Nueva Venta</string>
+    <string name="btn_share_report">Compartir Reporte</string>
+    <string name="btn_view_reports">Ver Reportes y Cierres</string>
+    <string name="recent_sales_today">Últimas Ventas de Hoy</string>
+    <string name="no_sales_today">No hay ventas registradas el día de hoy.</string>
+    <string name="start_registering">Presiona «Nueva Venta» para registrar la primera.</string>
+
+    <!-- Registro de Venta -->
+    <string name="sale_form_title">Registrar Venta Minorista</string>
+    <string name="sale_form_subtitle">Ingreso rápido en piso de venta</string>
+    <string name="field_product">Producto / Mueble *</string>
+    <string name="field_product_hint">Ej. Comedor Roble 6 puestos, Sillón Astrid, etc.</string>
+    <string name="field_quantity">Cantidad *</string>
+    <string name="field_unit_price">Precio Minorista Unitario ($) *</string>
+    <string name="field_notes">Detalles adicionales (Opcional)</string>
+    <string name="field_notes_hint">Color madera, tapizado, entrega, etc.</string>
+    <string name="calculated_total">Total de la Venta:</string>
+    <string name="btn_save_sale">Guardar Venta</string>
+    <string name="saving_sale">Guardando…</string>
+    <string name="sale_saved_success">¡Venta registrada exitosamente!</string>
+
+    <!-- Validaciones -->
+    <string name="error_product_required">Por favor ingresa el nombre del producto.</string>
+    <string name="error_quantity_invalid">La cantidad debe ser un número entero mayor a 0.</string>
+    <string name="error_price_invalid">El precio debe ser mayor a 0.</string>
+
+    <!-- Reportes y Cierre -->
+    <string name="reports_title">Historial y Reportes de Cierre</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_today">Hoy</string>
+    <string name="filter_yesterday">Ayer</string>
+    <string name="filter_this_week">Esta Semana</string>
+    <string name="filter_this_month">Este Mes</string>
+    <string name="filter_custom">Personalizado</string>
+    <string name="summary_total">Total acumulado:</string>
+    <string name="summary_count">Transacciones:</string>
+    <string name="summary_units">Unidades vendidas:</string>
+    <string name="no_sales_found">No se encontraron ventas para el período seleccionado.</string>
+    <string name="btn_share_period_report">Compartir Resumen</string>
+    <string name="btn_share_detailed_report">Compartir Detallado (WhatsApp)</string>
+
+    <!-- Compartir -->
+    <string name="share_chooser_title">Compartir reporte de ventas vía</string>
+    <string name="share_whatsapp_title">Enviar al Dueño por WhatsApp</string>
+    <string name="whatsapp_not_installed">WhatsApp no está instalado en este dispositivo. Abriendo selector general.</string>
+    <string name="owner_contact_label">Teléfono del dueño / encargado (WhatsApp):</string>
+    <string name="owner_contact_hint">Ej: +573001234567 o 3001234567</string>
+    <string name="owner_name_label">Nombre de la fábrica o dueño:</string>
+    <string name="owner_name_hint">Ej: Don Carlos - Muebles La Colina</string>
+    <string name="seller_name_label">Nombre del vendedor de turno:</string>
+    <string name="seller_name_hint">Ej: Luis Sánchez</string>
+    <string name="save_settings">Guardar Configuración</string>
+    <string name="settings_saved">Configuración guardada</string>
+
+    <!-- Diálogo de confirmación o detalle -->
+    <string name="sale_detail_title">Detalle de Venta</string>
+    <string name="btn_close">Cerrar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="delete_confirm_title">¿Eliminar esta venta?</string>
+    <string name="delete_confirm_desc">Esta acción removerá la venta del registro local.</string>
+</resources>
